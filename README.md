@@ -1,20 +1,20 @@
-### Recycle Yourself
----
+# Recycle Yourself
 
-# Introduction:
+## Introduction:
 Over 6,000 people die waiting for an organ transplant every year. One of the biggest hindrances to getting living donors for those in need of a transplant is that people in need don't feel comfortable asking the people in their lives if they're willing to be a donor. 
 
 Recycle Yourself is designed to give people in need of a life saving donation the ability to ask for help without having to directly have that difficult and awkward conversation with the people in their lives... repeatedly.
 Users will sign up with one of three account types:
+
 - Recipient (someone in need of a donation)
 - Donor (someone open to being a living donor)
-- Champion (someone who is neither, but is helping someone they know to find a donor). 
+- Champion (someone who is neither, but is helping someone they know to find a donor)
 
 The vision is to build what will function like a dating site, but for organ donation. Posts will be shareable and can follow the journey of the Recipient or Donor through the process, which can span from several months to several years. Users will also be able to search for people in their area and filter by their account type to find a donor or recipient they can connect with.
 
 I tracked my donation on Instagram and shared it, but it would have been nice to have a community of other donors to talk to. I'd love to build this out to foster that community in the future as well. 
 
-# ERD & Wireframes:
+## ERD & Wireframes:
 Potentially subject to change if stretch goals can be met.
 
 ![ERD](https://i.imgur.com/j9MW5aG.png) 
@@ -37,23 +37,36 @@ Potentially subject to change if stretch goals can be met.
 ![Add Comment](https://i.imgur.com/W5rAp0r.png)
 ![User Search](https://i.imgur.com/QmMW5uH.png)
 
-
-
 **Stretch Goals**
+
 ![Find Location - Map](https://i.imgur.com/siToGuL.png)
 ![Find Location - Map](https://i.imgur.com/3DyNM2C.png) 
 
+**Color Palette**
+![Color Palette](https://i.imgur.com/GIrtcps.png)
 
-# User Stories:
+## User Stories:
 
+- A user will be greeted by the landing page with an overview of the app and its goals
+- The user will be able to sign up (as a Donor, Recipient, or Champion) and will be asked for their age, location, and other information that's useful to the app
+- The user will then be at their home page where they can see and add posts, access messages, and see their friends
+- The user can navigate to the user search using the navbar to find people in their area or they can go to the donor or recipient information pages to see recent posts from donors/recipients who have made them, as well as get information and resources for donation
+- The user can send and receive messages from other users
+- The user can make their own posts (and choose a post type such as appointment or meeting)
+- The user can comment on posts made by them or by other users
+- They can essentially journal their experience as they go through the donation process, both for themselves and for others
 
-# Technologies/Dependencies:
-- MEAN stack
+## Technologies/Dependencies:
+
+- JavaScript
+- HTML
+- CSS
+- MERN
 - Passport
 - Mapbox
 
+## Credits/Resources:
 
-# Credits:
-
-
-
+- Coolers.co for color palette generator
+- Flexiple.com for illustrations
+- FontAwesome.com & onlinewebfonts.com for icons
